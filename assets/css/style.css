@@ -8,42 +8,35 @@
     color: #fff;
 }
 
-
-
-#start  {
-    
-     width: 45% !important;
-     font-size: 30px;
-     color: black;
-
+#start {
+    width: 45% !important;
+    font-size: 30px;
+    color: black;
 }
-
+html,
 body {
-    background-image:linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ), url('../images/8au7u1s.jpg');
-    color: #fff;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/8au7u1s.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  /* For WebKit*/
+  -moz-background-size: cover;
+  /* Mozilla*/
+  -o-background-size: cover;
+  /* Opera*/
+  background-size: cover;
+  /* Generic*/
+  color: #fff;
 }
+
 
 #subheader {
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 20px;
     text-align: center;
-    
-    
-    
-    
-  
-  
 }
 
 input[type=radio] {
     margin: 6px 10px 0 !important;
-    
-    
-
 }
 
 input[type=value] {
@@ -52,21 +45,28 @@ input[type=value] {
 }
 
 #Done {
-    margin-left: 260px;
     width: 30%;
-    margin-top: 20px;
     font-size: 30px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-
 }
 
 h2 {
-    
-    
     text-align: center;
 }
 
 .contain {
     justify-content: center;
+}
+
+#button-position {
+    text-align: center;
+}
+
+@media screen and (max-width: 568px) {
+    #Done {
+        width: 50%;
+        
+    }
+
 }
